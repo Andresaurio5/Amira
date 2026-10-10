@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../ui/Button';
 import './HeroSection.css';
+import imgBase from '../../assets/MP.jpeg';
 
 export default function HeroSection() {
     const num = "01";
@@ -8,7 +9,6 @@ export default function HeroSection() {
     const tit1 = "Tu piel.";
     const tit2 = "Tu ritual.";
     const desc = "Maquillaje esencial, tonos honestos y formulas que cuidan. Creado para realzar todo lo que ya eres.";
-    const imgUrl = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1000";
 
     return (
         <section className="hero-cnt">
@@ -36,8 +36,8 @@ export default function HeroSection() {
             </div>
             <div className="hero-box">
                 <img
-                    src={imgUrl}
-                    alt="Modelo Amira"
+                    src={imgBase}
+                    alt="Base Airbrush Flawless de Amira"
                     className="hero-img"
                 />
             </div>
