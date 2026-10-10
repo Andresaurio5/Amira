@@ -1,0 +1,24 @@
+.btn-custom {
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: opacity 0.2s ease;
+}
+
+.btn-custom:hover {
+    opacity: 0.85;
+}
+
+.btn-main {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 15px 25px;
+}
+
+.btn-icon {
+    background: none;
+    color: #2b2b2b;
+    font-size: 12px;
+    padding: 5px;
+}

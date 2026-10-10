@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+body {
+  background-color: #f7f4f0;
+  color: #2b2b2b;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="%23b58d6d" opacity="0.6"/><circle cx="12" cy="12" r="3" fill="%232b2b2b"/></svg>') 12 12, auto;
+}
+
+button, a, input {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="%232b2b2b" opacity="0.8"/><circle cx="14" cy="14" r="4" fill="%23ebd2c1"/></svg>') 14 14, pointer !important;
+}
+
+.app-main {
+  width: 100%;
+  min-height: 100vh;
+}

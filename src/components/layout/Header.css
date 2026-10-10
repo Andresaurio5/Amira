@@ -1,0 +1,32 @@
+.hdr-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f7f4f0;
+    border-bottom: 1px solid #e5dec9;
+}
+
+.hdr-left, .hdr-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hdr-logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hdr-nav {
+    display: flex;
+    gap: 25px;
+}
+
+.hdr-link {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
